@@ -23,6 +23,9 @@ namespace DataStructures
             list.Delete(new Node<string>("Test2"));
 
             list.PrintNodeList();
+
+            list.RecursiveSearch("Test3");
+
             Console.ReadLine();
         }
     }
